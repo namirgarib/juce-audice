@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="adYrMD" name="JUCE Audice" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="adYrMD" name="JUCEAudice" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
-  <MAINGROUP id="MJMWfW" name="JUCE Audice">
+  <MAINGROUP id="MJMWfW" name="JUCEAudice">
     <GROUP id="{6ABC507D-7F30-D873-3C37-F3FB64C555A7}" name="Source">
       <FILE id="Su25zB" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -23,6 +23,7 @@
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
@@ -48,6 +49,7 @@
         <MODULEPATH id="juce_graphics" path="../../../CPP/JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../../CPP/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../../CPP/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../CPP/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
